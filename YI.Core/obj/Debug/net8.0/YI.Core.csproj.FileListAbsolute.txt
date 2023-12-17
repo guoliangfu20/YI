@@ -1,0 +1,16 @@
+E:\codes\YI\YI.Core\bin\Debug\net8.0\YI.Core.deps.json
+E:\codes\YI\YI.Core\bin\Debug\net8.0\YI.Core.dll
+E:\codes\YI\YI.Core\bin\Debug\net8.0\YI.Core.pdb
+E:\codes\YI\YI.Core\bin\Debug\net8.0\YI.Entity.dll
+E:\codes\YI\YI.Core\bin\Debug\net8.0\YI.Entity.pdb
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.csproj.AssemblyReference.cache
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.AssemblyInfoInputs.cache
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.AssemblyInfo.cs
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.csproj.CoreCompileInputs.cache
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.sourcelink.json
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.csproj.CopyComplete
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.dll
+E:\codes\YI\YI.Core\obj\Debug\net8.0\refint\YI.Core.dll
+E:\codes\YI\YI.Core\obj\Debug\net8.0\YI.Core.pdb
+E:\codes\YI\YI.Core\obj\Debug\net8.0\ref\YI.Core.dll

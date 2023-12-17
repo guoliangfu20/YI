@@ -1,0 +1,12 @@
+E:\codes\YI\YI.Entity\bin\Debug\net8.0\YI.Entity.deps.json
+E:\codes\YI\YI.Entity\bin\Debug\net8.0\YI.Entity.dll
+E:\codes\YI\YI.Entity\bin\Debug\net8.0\YI.Entity.pdb
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.AssemblyInfoInputs.cache
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.AssemblyInfo.cs
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.csproj.CoreCompileInputs.cache
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.sourcelink.json
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.dll
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\refint\YI.Entity.dll
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\YI.Entity.pdb
+E:\codes\YI\YI.Entity\obj\Debug\net8.0\ref\YI.Entity.dll
