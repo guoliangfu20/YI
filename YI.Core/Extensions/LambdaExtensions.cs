@@ -96,7 +96,7 @@ namespace YI.Core.Extensions
           ParameterExpression parameter,
           LinqExpressionType expressionType)
         {
-            Type proType = typeof(T).GetProperty(propertyName).PropertyType;
+            Type proType = (typeof(T).GetProperty(propertyName)).PropertyType;
             //创建节点变量如p=>的节点p
             //  parameter ??= Expression.Parameter(typeof(T), "p");//创建参数p
             parameter = parameter ?? Expression.Parameter(typeof(T), "p");

@@ -15,8 +15,8 @@ namespace YI.Core.WorkFlow
         public static Expression<Func<T, bool>>? Create<T>(List<FieldFilter> filters)
             where T : class
         {
-            if (filters == null)
-                return null;
+            if (filters == null) return null;
+
             filters = filters.Where(x => !string.IsNullOrEmpty(x.Field)).ToList();
 
             if (filters.Any(x => !string.IsNullOrEmpty(x.Value)) == false)   // 所有条件都是空
@@ -29,8 +29,7 @@ namespace YI.Core.WorkFlow
 
             foreach (var item in filters)
             {
-                if (string.IsNullOrEmpty(item.Value))
-                    continue;
+                if (string.IsNullOrEmpty(item.Value)) continue;
                 if (!fields.Contains(item.Field))
                 {
                     string msg = $"表【{typeof(T).GetEntityTableName()}】不存在字段【{item.Field}】";
@@ -38,8 +37,8 @@ namespace YI.Core.WorkFlow
                     throw new Exception(msg);
                 }
                 item.Value = item.Value.Trim();
-                LinqExpressionType type = LinqExpressionType.Equal;
 
+                LinqExpressionType type = LinqExpressionType.Equal;
                 switch (item.FilterType)
                 {
                     case "!=":
@@ -51,7 +50,6 @@ namespace YI.Core.WorkFlow
                     case ">=":
                         type = LinqExpressionType.ThanOrEqual;
                         break;
-                    case "小于":
                     case "<":
                         type = LinqExpressionType.LessThan;
                         break;

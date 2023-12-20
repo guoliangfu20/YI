@@ -361,6 +361,21 @@ namespace YI.Core.Extensions
             return keyName;
         }
 
+        /// <summary>
+        /// 获取表带有EntityAttribute属性的表中文名
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        public static string GetEntityTableCnName(this Type type)
+        {
+            Attribute attribute = type.GetCustomAttribute(typeof(EntityAttribute));
+            if (attribute != null && attribute is EntityAttribute)
+            {
+                return (attribute as EntityAttribute).TableCnName;
+            }
+            return string.Empty;
+        }
+
     }
 
     public enum EntityToSqlTempName
